@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{283AEA51-0AEA-F54E-ADA7-464B739CB0DF}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Imported Assets/_Completed-Assets/Scripts/CompleteRotator.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="125" Column="7" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="25" Column="9" />
+      <File FileName="Assets/Imported Assets/_Completed-Assets/Scripts/CompleteRotator.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ZEAGER Version 0" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
