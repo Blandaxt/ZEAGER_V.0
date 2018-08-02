@@ -97,9 +97,9 @@
     <Compile Include="Assets\Imported Assets\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
     <Compile Include="Assets\Imported Assets\SimpleCloudSystem by RM\SCS.cs" />
     <Compile Include="Assets\Imported Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
-    <Compile Include="Assets\Imported Assets\unity-2d-water-effect-master\assets\Scripts\Clickspawn.cs" />
-    <Compile Include="Assets\Imported Assets\unity-2d-water-effect-master\assets\Scripts\Water.cs" />
-    <Compile Include="Assets\Imported Assets\unity-2d-water-effect-master\assets\Scripts\WaterDetector.cs" />
+    <Compile Include="Assets\Imported Assets\unity-2d-water-effect-master 1\assets\Scripts\Clickspawn.cs" />
+    <Compile Include="Assets\Imported Assets\unity-2d-water-effect-master 1\assets\Scripts\Water.cs" />
+    <Compile Include="Assets\Imported Assets\unity-2d-water-effect-master 1\assets\Scripts\WaterDetector.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <None Include="Assets\Imported Assets\Particle Ribbon by Moonflower Carnivore\Shaders\Particle Alpha Blend HDR.shader" />

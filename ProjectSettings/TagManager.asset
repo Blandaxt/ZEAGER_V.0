@@ -8,6 +8,9 @@ TagManager:
   - Background
   - Floor
   - Coin
+  - player
+  - Text
+  - Entrance
   layers:
   - Default
   - TransparentFX
@@ -17,8 +20,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Background
+  - Player
   - 
   - 
   - 
@@ -54,14 +57,26 @@ TagManager:
   - name: Background3
     uniqueID: 3273324405
     locked: 0
+  - name: collider2
+    uniqueID: 2257435153
+    locked: 0
   - name: Collider
     uniqueID: 2875976941
     locked: 0
-  - name: Pickups
-    uniqueID: 3402919297
-    locked: 0
   - name: roots
     uniqueID: 2184665061
+    locked: 0
+  - name: Construct
+    uniqueID: 3228111217
+    locked: 0
+  - name: constrcutDecor
+    uniqueID: 2779244033
+    locked: 0
+  - name: field_2
+    uniqueID: 3877586545
+    locked: 0
+  - name: Pickups
+    uniqueID: 3402919297
     locked: 0
   - name: Player
     uniqueID: 1338097493

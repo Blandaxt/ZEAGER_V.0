@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
+    //setting up my wintext variable
+    public Text winText;
+
     //float is non-whole numbers like decimal numbers
     public float moveSpeed;
 
@@ -35,6 +38,9 @@ public class PlayerController : MonoBehaviour {
         //stores the pointer to the RigidBody2D component
         rb2d = GetComponent<Rigidbody2D>();
 
+        //logging the rigidbody2d component
+        Debug.Log(rb2d); 
+
         //a variable that holds the animator
         animate = GetComponent<Animator>();
 
@@ -44,12 +50,27 @@ public class PlayerController : MonoBehaviour {
         //count is set to 0
         count = 0;
 
+        //wintext is set to an empty string
+        winText.text = "";
+
         //running the set count text function
         SetCountText();
 	}
 
     void Update () 
     {
+        //Edge case if i wanted to use the addforce method for the x 
+        if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
+        {
+            rb2d.velocity = new Vector2 (0f, rb2d.velocity.y);
+        }
+
+        //Edge case if i wanted to use the addforce method for the x 
+        if (Input.GetAxisRaw("Vertical") < 0.5f && Input.GetAxisRaw("Vertical") > -0.5f)
+        {
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 0f);
+        }
+
         //connects the editor animator lastmove_x to the lastmove variable
         animate.SetFloat("LastMoveX", lastMove.x);
 
@@ -104,7 +125,7 @@ public class PlayerController : MonoBehaviour {
         //uses the two (up) Vertical and (down) Horizontal variables to store them in the vector 2 movement variable
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
 
-        //calls the add force function on the RigidBody2d spplying movement times speed to move
+        //calls the add force function on the RigidBody2d suplying movement times speed to move
             rb2d.AddForce(movement * speed);
         //Did not use this method because it adds force and replicates a constant movement in the direction that the player choses. This creates a phantom drag that keeps the playerObject moving until there is enough force in the opposite direction to move the player to another position. Not fit for 2d, unless it is attached to a special object like a motorbike that the player can use. 
 
@@ -163,5 +184,11 @@ public class PlayerController : MonoBehaviour {
     {
         //count is set to string then combined with the string count 
         countText.text = "Gold: " + count.ToString();
+
+        //setting up win conditions
+        if( count >= 12)
+        {
+            winText.text = "YOU ARE THE WINNER!";
+        }
     }
 }
