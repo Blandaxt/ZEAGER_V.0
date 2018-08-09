@@ -35,6 +35,7 @@ public class slimeController : MonoBehaviour {
     //private Vector3 moveDirection
     private Vector3 moveDirection;
 
+    //sets the player as the game object
     private GameObject thePlayer;
 
 	// Use this for initialization
@@ -118,7 +119,7 @@ public class slimeController : MonoBehaviour {
         if(other.gameObject.name == "Player")	
         {
             //Player object becomes inactive
-            other.gameObject.SetActive(false);
+            //other.gameObject.SetActive(false);
 
             reloading = true;
             thePlayer = other.gameObject;
