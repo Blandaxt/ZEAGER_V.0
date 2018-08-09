@@ -131,10 +131,12 @@
     <Compile Include="Assets\Scripts\EnemyAI\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\EnemyAnimation.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\enemyAttack\FlyingEnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI\enemyAttack\slimeController.cs" />
     <Compile Include="Assets\Scripts\EnemyAI\enemyAttack\Sting.cs" />
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\items\CompleteRotator.cs" />
     <Compile Include="Assets\Scripts\LoadNewArea.cs" />
+    <Compile Include="Assets\Scripts\player\PlayerAttack\HurtEnemy.cs" />
     <Compile Include="Assets\Scripts\player\PlayerAttack\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\player\PlayerController\DashMove.cs" />
     <Compile Include="Assets\Scripts\player\PlayerController\PlayerController.cs" />

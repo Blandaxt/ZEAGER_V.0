@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DashMove : MonoBehaviour {
 
+    public GameObject dashEffect;
+
     //the time the dash can be used
     public float startDashTime;
 
@@ -38,17 +40,21 @@ public class DashMove : MonoBehaviour {
             //checks the direction the player will dash
             if(Input.GetKeyDown(KeyCode.LeftArrow))
             {
+                Instantiate(dashEffect, transform.position, Quaternion.identity);
                 direction = 1;
 
             }else if(Input.GetKeyDown(KeyCode.RightArrow))
             {
+                Instantiate(dashEffect, transform.position, Quaternion.identity);
                 direction = 2;
 
             }else if(Input.GetKeyDown(KeyCode.UpArrow))
             {
+                Instantiate(dashEffect, transform.position, Quaternion.identity);
                 direction = 3;
             }else if(Input.GetKeyDown(KeyCode.DownArrow))
             {
+                Instantiate(dashEffect, transform.position, Quaternion.identity);
                 direction = 4;
             }
         }else
