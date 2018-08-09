@@ -498,3 +498,7 @@
 /Users/rc-design/Desktop/ZEAGER_V.0/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
 /Users/rc-design/Desktop/ZEAGER_V.0/obj/Debug/Assembly-CSharp.dll
 /Users/rc-design/Desktop/ZEAGER_V.0/obj/Debug/Assembly-CSharp.pdb
+/Users/rc-design/Desktop/ZEAGER_V.0/Temp/bin/Debug/Facebook.Unity.Settings.dll
+/Users/rc-design/Desktop/ZEAGER_V.0/Temp/bin/Debug/UnityEngine.WebGLModule.dll
+/Users/rc-design/Desktop/ZEAGER_V.0/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/rc-design/Desktop/ZEAGER_V.0/Temp/bin/Debug/Vuforia.UnityExtensions.xml

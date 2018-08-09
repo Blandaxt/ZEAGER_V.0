@@ -15,7 +15,7 @@ public class LoadNewArea : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        
 	}
 
     //method for loading the next scene upon collision of coliders
@@ -27,6 +27,8 @@ public class LoadNewArea : MonoBehaviour {
             //this scene will load
             SceneManager.LoadScene (nextLevel);
         }
+
+        Debug.Log(nextLevel);
 
     }
 	//SceneManager.LoadScene
